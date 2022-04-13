@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BackgroundComponent } from './background/background.component';
 import { QuotesComponent } from './quotes/quotes.component';
+import { AddQuoteComponent } from './add-quote/add-quote.component';
 //import { AccountComponent } from './useraccount/useraccount.component';//
 
 @NgModule({
@@ -12,6 +13,7 @@ import { QuotesComponent } from './quotes/quotes.component';
     AppComponent,
     BackgroundComponent,
     QuotesComponent,
+    AddQuoteComponent,
     //AccountComponent
   ],
   imports: [
