@@ -3,20 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BackgroundComponent } from './background/background.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { QuotesComponent } from './quotes/quotes.component';
-import { AddQuoteComponent } from './add-quote/add-quote.component';
-import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-//import { AccountComponent } from './useraccount/useraccount.component';//
 
 @NgModule({
   declarations: [
     AppComponent,
-    BackgroundComponent,
-    QuotesComponent,
-    AddQuoteComponent,
-    QuoteDetailComponent,
-    //AccountComponent
+    NavbarComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
