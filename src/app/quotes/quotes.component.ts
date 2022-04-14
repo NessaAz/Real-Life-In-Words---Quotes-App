@@ -8,9 +8,9 @@ import { Quotes } from '../quote';
 })
 export class QuotesComponent implements OnInit {
   quotes: Quotes [] = [
-    new Quotes(1, 'First Quote', 0, 0),
-    new Quotes(2, 'Second Quote', 0, 0),
-    new Quotes(3, 'Third Quote', 0, 0),
+    new Quotes(1, 'Shine like the whole universe is yours!', 0, 0),
+    new Quotes(2, 'Some of your best days have not even happened yet - Anne Frank', 0, 0),
+    new Quotes(3, 'The Sun will rise and we will try again - 2 PILOTS', 0, 0),
   ] 
   constructor() { }
 
